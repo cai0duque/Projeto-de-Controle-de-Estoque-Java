@@ -1,9 +1,5 @@
-Precisamos:
-Classe Vendedor (Herança de Funcionario) no pacote com.lojaeletronicos.model
-Classe FuncionarioAlmoxarifado (Herança de Funcionario) no pacote com.lojaeletronicos.model
-Classe OrdemDeCompra (Classe Abstrata) no pacote com.lojaeletronicos.model
-Classe de Exceção Personalizada no pacote com.lojaeletronicos.exception
-Classe de Controle no pacote com.lojaeletronicos.controller
-Classe Principal (View) no pacote com.lojaeletronicos.view
+# Precisamos:
 
-Não se preocupem com a parte de tratamento de exceção, farei isso.
+1- Testar todas as funcionalidades, menus, lógica de funcionamento, entrada de dados;
+2- Após cada teste, verificar se, quando hovuerem erros e conflitos, as atuais exceções serão suficientes para identificar e notificar sobre tais erros;
+3- Revisar o código e adicionar comentários.
