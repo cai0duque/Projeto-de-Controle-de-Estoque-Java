@@ -1,7 +1,3 @@
-# Projeto-de-Controle-de-Estoque-Java
-Neste repositório existirá um grande projeto de um sistema de controle de estoque.
-
-Abaixo, encontrará a ideia (ainda crua) do projeto:
 Ideia de projeto em java, incluindo possibilidade de aplicação de todos os requisitos abaixo:
 Faça um projeto em Java que tenha a interação entre classes e implementa os conceitos abaixo:
 
@@ -20,7 +16,7 @@ Entregar as classes e um relatório com os nomes dos alunos, a descrição das f
 
 Sistema de LOJA de eletrônicos:
 
-A ideia consiste em um sistema para gerenciamento de estoque e venda de uma loja de eletrônicos, onde a mesma irá gerenciar os produtos, gerenciar as vendas do produto, fazer a ordem de compra para os produtos, além de gerenciar os funcionários responsáveis por tal, como: vendedor, funcionário do almoxarifado, gerente do almoxarifado.
+A ideia consiste em um sistema para gerenciamento de estoque e venda de uma loja de eletrônicos, onde a mesma irá gerenciar os produtos, gerenciar os produtos das vendas, fazer a ordem de compra para os produtos, além de gerenciar os funcionários responsáveis por tal, como: vendedor, funcionário do almoxarifado, gerente do almoxarifado.
 Usuários e seus usos:
 
 Gerente
@@ -47,16 +43,15 @@ Vamos criar um sistema com possibilidade do usuário:
 -Quantidade em estoque;
 -Preço de compra;
 -Preço de venda;
--Lucro estimado;
+-Lucro estimado; —necessário para  poder gerar descontos e ter métricas 
 
 - Cadastrar funcionários;
        - Cada funcionário deve receber uma matrícula única, que não pode ser repetida; (eu, Caio, me disponho a criar o tratamento de exceção para isso);
 -Nome do funcionário;
--Cargo;
+-Cargo; (gerente, funcionário do almoxarifado, vendedor)
 -Login;
 -Senha;
 -excluir funcionário;
--salário;
    
 Deve existir, integrado neste sistema, o menu de venda de produtos, que irá ter conversação com o sistema de produtos registrados.
 
@@ -144,6 +139,5 @@ SubMenu 2:
 |              2. Procurar funcionário por matrícula;                                                                       |
 |              3. Cadastrar funcionário;                                                                                           |
 |              4. Voltar                                                                                                                     |       ---------------------------------------------------------------------------------------------------------------------------
-
 
 
