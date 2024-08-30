@@ -1,0 +1,9 @@
+Precisamos:
+Classe Vendedor (Herança de Funcionario) no pacote com.lojaeletronicos.model
+Classe FuncionarioAlmoxarifado (Herança de Funcionario) no pacote com.lojaeletronicos.model
+Classe OrdemDeCompra (Classe Abstrata) no pacote com.lojaeletronicos.model
+Classe de Exceção Personalizada no pacote com.lojaeletronicos.exception
+Classe de Controle no pacote com.lojaeletronicos.controller
+Classe Principal (View) no pacote com.lojaeletronicos.view
+
+Não se preocupem com a parte de tratamento de exceção, farei isso.
