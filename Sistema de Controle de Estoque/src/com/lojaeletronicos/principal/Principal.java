@@ -5,6 +5,7 @@ import com.lojaeletronicos.exception.FuncionarioJaExisteException;
 import com.lojaeletronicos.exception.ProdutoJaExisteException;
 import com.lojaeletronicos.modelo.*;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Principal {
@@ -12,6 +13,9 @@ public class Principal {
     public static void main(String[] args) {
         Controle controle = new Controle();
         Scanner scanner = new Scanner(System.in);
+
+        //para nao quebrar o menu
+        boolean passagemPrincipal = false;
 
         // Exemplo de login (apenas para gerente)
         System.out.println("Seja bem-vindo. Insira seu login:");
@@ -31,7 +35,18 @@ public class Principal {
             System.out.println("2. FUNCIONÁRIOS");
             System.out.println("3. Sair");
 
-            opcao = scanner.nextInt();
+            //loop para nao quebrar o codigo quando passado uma opcao errada mais de uma vez
+            while(!passagemPrincipal){
+                try{
+                    opcao = scanner.nextInt();
+                    passagemPrincipal = true;
+                }catch(InputMismatchException E){
+                    scanner.nextLine();
+                    System.out.println("Por favor, digite um número do menu!");
+                    break;
+                }
+            }
+
             scanner.nextLine();
 
             switch (opcao) {
