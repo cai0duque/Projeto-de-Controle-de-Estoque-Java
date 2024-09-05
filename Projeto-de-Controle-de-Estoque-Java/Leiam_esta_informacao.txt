@@ -1,0 +1,5 @@
+# Precisamos:
+
+1- Testar todas as funcionalidades, menus, lógica de funcionamento, entrada de dados;
+2- Após cada teste, verificar se, quando hovuerem erros e conflitos, as atuais exceções serão suficientes para identificar e notificar sobre tais erros;
+3- Revisar o código e adicionar comentários.
